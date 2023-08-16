@@ -15,16 +15,16 @@ int main() {
     } else {
         while (i <= 5) {
             printf("not-okey-%d ", ++i);  
-        }
+        }// end while
 
         for (i = 3; i < 10; i += 1) {
             if (i % 2 == (_1 ? 1 : 0)) {  
                 printf("see see");
             } else {
                 printf("haha");
-            }
-        }
-    }
+            }//end else
+        }//end for
+    }//end else
 
     return 0;
-}
+}//end maian
